@@ -17,3 +17,9 @@ console.log(nums2)
 const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
 // Your code here
+
+const [firstPizzaTopping, secondPizzaTopping] = pizzaToppings;
+
+
+console.log(firstPizzaTopping)
+console.log(secondPizzaTopping)
