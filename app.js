@@ -68,3 +68,5 @@ console.log('My New Car: ', myCar)
 // Your code here
 
 const userProfile = {}
+
+const propertyName = 'email'
