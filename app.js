@@ -67,6 +67,12 @@ console.log('My New Car: ', myCar)
 
 // Your code here
 
-const userProfile = {}
+// const userProfile = {}
 
 const propertyName = 'email'
+
+const userProfile = {
+  [propertyName]: 'deijah@hotmal.com'
+};
+
+console.log(userProfile)
