@@ -56,3 +56,7 @@ const car = {
 // Change the `model` property of `myCar` to 'q7'. Log both objects.
 
 // Your code here
+const myCar = { ...car}
+console.log('New: ', myCar)
+myCar.model = 'Q7'
+console.log('My New Car: ', myCar)
