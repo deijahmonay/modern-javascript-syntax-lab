@@ -66,3 +66,5 @@ console.log('My New Car: ', myCar)
 // Use propertyName as a dynamic key in userProfile, assigning a relevant value.
 
 // Your code here
+
+const userProfile = {}
