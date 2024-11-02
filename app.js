@@ -11,3 +11,9 @@ const nums2 = nums.map((currentElement) => {
 });
 
 console.log(nums2)
+
+// Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
+
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+
+// Your code here
