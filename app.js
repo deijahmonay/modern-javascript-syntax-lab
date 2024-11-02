@@ -41,5 +41,7 @@ console.log(model)
 const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
 //! commenting out exercise 2 in order to use 'pizzaToppings' here
-
 // Your code here
+
+duplicatePizzaToppings = [... pizzaToppings]
+console.log(duplicatePizzaToppings)
