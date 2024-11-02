@@ -30,5 +30,8 @@ const car = {
   make: 'Audi',
   model: 'q5',
 };
-
 // Your code here
+
+const { make, model } = car
+console.log(make)
+console.log(model)
