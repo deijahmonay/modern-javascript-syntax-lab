@@ -120,6 +120,8 @@ const localLangConfig = null;  // Change to 'es', 'fr', etc., or keep it null
 
 // Your code here
 
+const LANG = localLangConfig || 'en'
+
 // Log the result
 console.log('Language setting:', LANG);
 
