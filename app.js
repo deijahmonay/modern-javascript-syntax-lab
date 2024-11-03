@@ -96,12 +96,13 @@ logSentence('Slow Lorris', 'brown')
 
 // Convert the following `if...else` statement in to a ternary:
 
-let pizza = 'tasty';
+// let pizza = 'tasty';
 
-if (pizza === 'tasty') {
-  console.log('yum');
-} else {
-  console.log('yuck');
-}
+// if (pizza === 'tasty') {
+//   console.log('yum');
+// } else {
+//   console.log('yuck');
+// }
 
 // Your code here
+let pizza = 'tasty' ? console.log('yum') : console.log('yuck')
