@@ -93,3 +93,15 @@ function logSentence(noun = 'cat', adjective = 'white') {
 
 logSentence()
 logSentence('Slow Lorris', 'brown')
+
+// Convert the following `if...else` statement in to a ternary:
+
+let pizza = 'tasty';
+
+if (pizza === 'tasty') {
+  console.log('yum');
+} else {
+  console.log('yuck');
+}
+
+// Your code here
