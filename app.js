@@ -43,7 +43,7 @@ const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 //! commenting out exercise 2 in order to use 'pizzaToppings' here
 // Your code here
 
-controversialPizzaToppings = [... pizzaToppings]
+const controversialPizzaToppings = [...pizzaToppings]
 console.log(controversialPizzaToppings)
 
 // Duplicate the following object and spread its values into a new variable `myCar`.
@@ -86,3 +86,10 @@ console.log(userProfile)
 // The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
 
 // Your code here
+
+function logSentence(noun = 'cat', adjective = 'white') {
+  console.log(`The ${noun} is ${adjective}`)
+}
+
+logSentence()
+logSentence('Slow Lorris', 'brown')
